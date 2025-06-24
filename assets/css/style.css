@@ -6,6 +6,10 @@
     box-sizing: border-box;
     font-family: "Kite One", sans-serif;
 }
+body
+{
+    min-width: 100vw;
+}
 a{
     text-decoration: none;
 }
@@ -22,10 +26,68 @@ a{
     --rosa:#FAD6A5;
 }
 
+@media (max-width:990px)
+{
+    .logo
+    {
+        width: 20vw;
+    }
+    .nav-container .nav-link.dropdown-toggle 
+    {
+        font-size: 1.2rem; 
+    }
+    .nav-container .icon-container i {
+        font-size: 1.2rem;
+    }
+    .icon-container
+    {
+        align-self: center;
+        padding: 0 3vw;
+    }
+    .icon-container i
+    {
+        padding:1vw;
+    }
+    
+}
+@media (max-width: 768px) {
+  .carousel-container {
+    width: 200px;
+    margin: 0 auto;         
+  }
+
+  .carousel-container img {
+    display: block;
+    margin: 0 auto;          
+    max-width: 100%;          
+  }
+}
+
+@media (min-width:991px)
+{
+    .icon-container
+    {
+        align-self: center;
+        padding: 0 5vw;
+    }
+    .icon-container i
+    {
+        padding:1.5vw;
+    }
+}
+
 .logo
 {
     width: 10vw;
 }
+.nav-container .nav-link.dropdown-toggle 
+    {
+        font-size: 1.4rem; 
+    }
+.nav-container .icon-container i 
+    {
+        font-size: 1.3rem;
+    }    
 .nav-css
 {
     background-color: var(--azul-esc-ab);
@@ -73,6 +135,7 @@ main img
 .nav-color
 {
     color: var(--cinza);
+    font-size: 1vw;
    
 }
 .nav-ed
@@ -116,9 +179,12 @@ main img
 .main-title
 {
     background-color: var(--cinza);
-    width: 15vw;
+    width: 50vw;
+    margin-top: 3vh;
+    padding: 1vh 0.5vw;
     color: var(--azul-esc-ab);
     text-align: center;
+    font-size: 2rem;
 
 }
 .btn-success
@@ -144,13 +210,14 @@ main img
 
    max-width: 40rem;
    max-height: 70vh;
-   margin: 5vh auto;
+   
 }
 .info
 {   
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
+    
     
 }
 .info h1,label,p
