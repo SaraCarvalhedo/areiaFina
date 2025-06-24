@@ -1,0 +1,189 @@
+@import url('https://fonts.googleapis.com/css2?family=Birthstone&family=Dancing+Script:wght@400..700&family=Emilys+Candy&family=Kite+One&family=National+Park:wght@200..800&family=WDXL+Lubrifont+TC&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Kite One", sans-serif;
+}
+a{
+    text-decoration: none;
+}
+:root
+{
+    --azul-esc-ab:#001C45;
+    --azul-esc-fec:#0148AF;
+    --azul-med:#1354B1;
+    --azul-med-cl:#0086C0;
+    --azul-cl:#DEF2F9;
+    --verde:#008055;
+    --cinza:#BBC5CE;
+    --bege:#E7D3B2;
+    --rosa:#FAD6A5;
+}
+
+.logo
+{
+    width: 10vw;
+}
+.nav-css
+{
+    background-color: var(--azul-esc-ab);
+    height: 12vh;
+    
+}
+.nav-item a, i
+{   
+    font-size: 1vw;
+    color: var(--cinza);
+}
+.nav-item i:hover
+{
+    color: var(--azul-med-cl);
+}
+.nav-link,
+.nav-link:focus,
+.nav-link:hover,
+.nav-link.dropdown-toggle,
+.nav-link.dropdown-toggle:focus,
+.nav-link.dropdown-toggle:hover,
+.nav-link.show,
+.nav-link.dropdown-toggle.show {
+  color: var(--azul-cl) !important;
+}
+.form-control-css
+{
+    width: 30vw;
+}
+.form-control-css::placeholder
+{
+    color: var(--azul-esc-fec);
+}
+.logo_title
+{
+    color: var(--rosa);
+    margin: auto;
+    font-weight: 900;
+}
+main img
+{
+    width: 100vw;
+    height:100vh;
+}
+.nav-color
+{
+    color: var(--cinza);
+   
+}
+.nav-ed
+{
+    height: 12vh;
+}
+.card-container
+{
+    margin: 5vh auto;
+    width: 80vw;
+    
+
+}
+.card
+{
+    border: none;
+}
+.card:hover {
+  transform: translateY(-10px);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.card-img-top
+{
+    width: 90%;
+    height: 30vh;
+    margin: 1vh auto;
+}
+
+.main-init
+{
+    margin: 5vh 0 1vh 0;
+    color: var(--azul-esc-fec);
+    background-color: var(--azul-cl);
+
+}
+.main-text
+{
+    color: var(--azul-med-cl);
+}
+.main-title
+{
+    background-color: var(--cinza);
+    width: 15vw;
+    color: var(--azul-esc-ab);
+    text-align: center;
+
+}
+.btn-success
+{
+    background-color:
+    var(--azul-med-cl);
+    border-color: var(--azul-med-cl);
+    margin: 2vh;
+}
+.btn-outline-success
+{
+    color: #0086C0;
+    border-color: #0086C0;
+}
+.carousel-size-img
+{
+    width: 30vw;
+    height: 60vh;
+    object-fit: cover;
+}
+.carousel-container
+{
+
+   max-width: 40rem;
+   max-height: 70vh;
+   margin: 5vh auto;
+}
+.info
+{   
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    
+}
+.info h1,label,p
+{
+    color: var(--azul-med);
+    font-weight: 400;
+}
+.preco-antigo {
+  text-decoration: line-through;
+  color: gray;
+}  
+.preco-atual {
+  font-size: 1.5em;
+  color:var(--verde);
+  margin: 10px 0;
+}
+
+.promocao {
+  font-weight: 900;
+  padding: 2px 6px;
+  font-weight: bold;
+}
+.login-title
+{
+    color: var(--azul-esc-fec);
+
+}
+.login-card
+{
+    width: 50vw; 
+    max-width: 600px;
+    height: 50vh;
+    max-width: 600px;
+
+}
+
