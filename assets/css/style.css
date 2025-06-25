@@ -50,6 +50,15 @@ a{
     {
         font-size: 1.2rem; 
     }
+    .navbar-nav .nav-item.dropdown > .nav-link 
+    {
+    font-size: 1.1rem !important;
+    }
+
+    .dropdown-menu .dropdown-item 
+    {
+        font-size: 1rem !important;
+    }
     .logo
     {
         width: 16vw;
@@ -67,9 +76,8 @@ a{
     {
         padding:1vw;
     }
-    main
-    {   
-        height: 67vh;
+    main {
+        min-height: 100%;
     }
     .fundo-img-index 
     {
@@ -80,6 +88,12 @@ a{
         background-size: contain;
         background-position: center;
         margin: 0;
+    }
+    footer
+    {
+        width: 100vw;
+        position: static;
+        bottom: 0;
     }
     footer i
     {
@@ -94,8 +108,8 @@ a{
     {
         margin-bottom: 5vh;
     }
-
 }
+
 @media (max-width: 768px) {
   .carousel-container {
     width: 200px;
@@ -123,7 +137,8 @@ a{
     }
     .nav-container .icon-container i 
     {
-        font-size: 1.2rem;
+        font-size: 1.5rem;
+        color: var(--azul-esc-ab);
     }    
     .icon-container
     {
@@ -326,4 +341,5 @@ main img
     max-width: 600px;
 
 }
+
 
