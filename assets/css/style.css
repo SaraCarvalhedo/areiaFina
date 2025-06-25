@@ -15,6 +15,8 @@ html
 body
 {
     min-width: 100vw;
+    min-height:100vh;
+    background-color: var(--azul-cl);
 }
 a{
     text-decoration: none;
@@ -34,6 +36,12 @@ a{
 
 @media (max-width:990px)
 {
+    .dropdown-menu,
+    .dropdown-item
+    {
+        font-size: 1.5rem;
+        
+    }
     header nav
     {
         min-height: 18vh;
@@ -59,7 +67,20 @@ a{
     {
         padding:1vw;
     }
-    
+    main
+    {   
+        height: 67vh;
+    }
+    .fundo-img-index 
+    {
+        background-image: url('../images/mulher-capa2.jpg');
+        width: 100vw;
+        min-height: 60vh;
+        background-repeat: no-repeat;
+        background-size: contain;
+        background-position: center;
+        margin: 0;
+    }
     footer i
     {
         font-size: 1.2rem;
@@ -113,6 +134,17 @@ a{
     {
         padding:1.5vw;
     }
+    
+    .fundo-img-index 
+    {
+        background-image: url('../images/mulher-capa2.jpg');
+        min-width:100vw;
+        min-height: 90vh;
+        background-size: contain;
+        background-position: center;
+        background-repeat: no-repeat;
+        margin: 0;
+    }
 }
 
 .nav-css
@@ -140,6 +172,7 @@ a{
 .nav-link.dropdown-toggle.show {
   color: var(--azul-cl) !important;
 }
+
 .form-control-css
 {
     width: 30vw;
