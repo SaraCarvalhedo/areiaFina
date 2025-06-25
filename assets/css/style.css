@@ -9,6 +9,7 @@
 html
 {
     font-size:16px;
+    
 }
 
 body
@@ -33,17 +34,22 @@ a{
 
 @media (max-width:990px)
 {
-    .logo
+    header nav
     {
-        width: 20vw;
+        min-height: 18vh;
     }
-    .nav-container .nav-link.dropdown-toggle
+    .nav-container .nav-link.dropdown-toggle 
     {
         font-size: 1.2rem; 
     }
-    .nav-container .icon-container i {
-        font-size: 1.2rem;
+    .logo
+    {
+        width: 16vw;
     }
+    .nav-container .icon-container i 
+    {
+        font-size: 1.1rem;
+    }    
     .icon-container
     {
         align-self: center;
@@ -63,7 +69,11 @@ a{
     {
         font-size: 0.8rem !important;
     }
-    
+    .card-margin
+    {
+        margin-bottom: 5vh;
+    }
+
 }
 @media (max-width: 768px) {
   .carousel-container {
@@ -80,6 +90,20 @@ a{
 
 @media (min-width:991px)
 {
+    .logo,
+    .icon-container
+    {
+        width: 10vw;
+        margin-top: 2vh;
+    }
+    .nav-container .nav-link.dropdown-toggle 
+    {
+        font-size: 1.2rem; 
+    }
+    .nav-container .icon-container i 
+    {
+        font-size: 1.2rem;
+    }    
     .icon-container
     {
         align-self: center;
@@ -89,22 +113,8 @@ a{
     {
         padding:1.5vw;
     }
-    
-    
 }
 
-.logo
-{
-    width: 10vw;
-}
-.nav-container .nav-link.dropdown-toggle 
-    {
-        font-size: 1.4rem; 
-    }
-.nav-container .icon-container i 
-    {
-        font-size: 1.3rem;
-    }    
 .nav-css
 {
     background-color: var(--azul-esc-ab);
@@ -138,6 +148,17 @@ a{
 {
     color: var(--azul-esc-fec);
 }
+.navbar
+{
+    padding-bottom: 0.5rem;
+}
+.navbar-toggler,
+.icon-container,
+.logo
+{
+  margin-bottom: 0.5rem;
+  padding-bottom: 0.5rem;
+}
 .logo_title
 {
     color: var(--rosa);
@@ -156,8 +177,10 @@ main img
    
 }
 .nav-ed
-{
-    height: 12vh;
+{   
+    margin-top: 0;
+    min-height: 12vh;
+    background-color: var(--azul-esc-ab);
 }
 .card-container
 {
@@ -209,7 +232,7 @@ main img
     background-color:
     var(--azul-med-cl);
     border-color: var(--azul-med-cl);
-    margin: 2vh;
+    margin-bottom: 2vh;
 }
 .btn-outline-success
 {
@@ -218,7 +241,7 @@ main img
 }
 .carousel-size-img
 {
-    width: 35vw;
+    width: 30vw;
     height: 60vh;
     object-fit: cover;
 }
@@ -264,9 +287,9 @@ main img
 }
 .login-card
 {
-    width: 50vw; 
+    width: 60vw; 
     max-width: 600px;
-    height: 50vh;
+    height: 60vh;
     max-width: 600px;
 
 }
