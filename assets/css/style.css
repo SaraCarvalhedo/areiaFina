@@ -1,11 +1,11 @@
-@import url('https://fonts.googleapis.com/css2?family=Birthstone&family=Dancing+Script:wght@400..700&family=Emilys+Candy&family=Kite+One&family=National+Park:wght@200..800&family=WDXL+Lubrifont+TC&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Birthstone&family=Dancing+Script:wght@400..700&family=Emilys+Candy&family=Exo+2:ital,wght@0,100..900;1,100..900&family=Kite+One&family=National+Park:wght@200..800&family=Orbitron:wght@400..900&family=Varela+Round&family=WDXL+Lubrifont+TC&display=swap');
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: "Kite One", sans-serif;
+    font-family: "Exo 2", sans-serif;
 }
+
 body
 {
     min-width: 100vw;
@@ -201,7 +201,7 @@ main img
 }
 .carousel-size-img
 {
-    width: 30vw;
+    width: 35vw;
     height: 60vh;
     object-fit: cover;
 }

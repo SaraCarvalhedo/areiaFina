@@ -76,29 +76,38 @@
 
   <main>
     <div>
-      <h1>Bem-vindo à loja AreiaFina</h1>
-      <p>Aqui você encontra os melhores produtos esportivos!</p>
+      <h1 class="display-4 text-center fw-bold main-init">Bem-vindo à loja AreiaFina</h1>
+      <p class="h2 text-center main-text">Aqui você encontra os melhores produtos esportivos!</p>
     </div>
 
-    <div class="login-container">
-      <h2>Novo usuário</h2>
-      <form action="#" method="post">
-        <label for="email">Email:</label>
-        <input type="email" id="email" name="email" placeholder="Digite seu email" required>
+    <div class="d-flex flex-column align-items-center justify-content-center">
+      <div class="card p-4 shadow-lg login-card m-4 d-flex flex-column justify-content-evenly text-center" >
+        <h2 class="mb-4 text-center fw-bold login-title ">Criar conta
+        </h2>
+        <form action="#" method="post">
+          
+          <div class="mb-3">
+            <label for="email" class="form-label">Email:</label>
+            <input type="email" class="form-control" id="email" name="email" placeholder="Digite seu email" required>
+          </div>
 
-        <label for="password">Senha:</label>
-        <input type="password" id="password" name="password" placeholder="Digite sua senha" required>
+          <div class="mb-3">
+            <label for="email" class="form-label">Nome usuário:</label>
+            <input type="email" class="form-control" id="usuário" name="usuário" placeholder="Digite nome para usuário" required>
+          </div>
 
-        <label for="password">Nome:</label>
-        <input type="password" id="password" name="password" placeholder="Informe seu nome" required>
+      <div class="mb-3">
+        <label for="password" class="form-label">Senha:</label>
+        <input type="password" class="form-control" id="password" name="password" placeholder="Digite sua senha" required>
+      </div>
 
-        <button type="submit">Criar conta</button>
-      </form>
-    </div>  
-
+      <button type="submit" class="btn btn-primary w-100">Criar conta</button>
+    </form>
+  </div>
+</div>
   </main>
 
-  <footer>
+  <footer class="mt-5">
     <nav class="navbar navbar-expand-lg nav-ed">
       <div class="container-fluid nav-css">
         <a class="navbar-brand nav-color" href="#">Areia Fina</a>
@@ -128,6 +137,6 @@
       </div>
     </nav> 
   </footer>
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.bundle.min.js" integrity="sha384-ndDqU0Gzau9qJ1lfW4pNLlhNTkCfHzAVBReH9diLvGRem5+R9g2FzA8ZGN954O5Q" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.bundle.min.js"      integrity="sha384-ndDqU0Gzau9qJ1lfW4pNLlhNTkCfHzAVBReH9diLvGRem5+R9g2FzA8ZGN954O5Q" crossorigin="anonymous"></script>
 </body>
 </html>
