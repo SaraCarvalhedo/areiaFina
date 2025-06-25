@@ -4,6 +4,11 @@
     padding: 0;
     box-sizing: border-box;
     font-family: "Exo 2", sans-serif;
+    
+}
+html
+{
+    font-size:16px;
 }
 
 body
@@ -32,7 +37,7 @@ a{
     {
         width: 20vw;
     }
-    .nav-container .nav-link.dropdown-toggle 
+    .nav-container .nav-link.dropdown-toggle
     {
         font-size: 1.2rem; 
     }
@@ -47,6 +52,16 @@ a{
     .icon-container i
     {
         padding:1vw;
+    }
+    
+    footer i
+    {
+        font-size: 1.2rem;
+    }
+    footer p,
+    footer a
+    {
+        font-size: 0.8rem !important;
     }
     
 }
@@ -74,6 +89,8 @@ a{
     {
         padding:1.5vw;
     }
+    
+    
 }
 
 .logo
